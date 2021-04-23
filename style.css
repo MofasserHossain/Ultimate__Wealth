@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ============== */
+/* global */
+/* ============== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  width: 100%;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+a {
+  color: #000;
+}
+section {
+  padding: 50px 0;
+}
+/* section:nth-child(even) {
+  background-color: #eee;
+} */
+
+.primary__color {
+  color: #d4b761;
+}
+.secondary__color {
+  color: #3a2460;
+}
+.button {
+  color: #fff;
+  background-color: #d4b761;
+  border: 1px solid #d4b761 !important;
+}
+.button:hover {
+  color: #d4b761;
+  background-color: transparent;
+  border: 1px solid #d4b761 !important;
+}
+.button__submit {
+  color: #333;
+  background-color: #d4b761;
+  border: 1px solid #d4b761 !important;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.button__submit:hover {
+  color: #d4b761;
+  border: 1px solid #d4b761 !important;
+  background-color: transparent;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+}
+.title h3 {
+  font-size: 25px;
+}
+
+/* ============== */
+/* header */
+/* ============== */
+
+header {
+  background-color: #3a2460;
+  color: #fff;
+}
+nav {
+  padding: 10px 0;
+}
+.menu {
+  align-items: center;
+}
+.banner__img {
+  padding-bottom: 20px;
+}
+.banner__img img {
+  width: 100%;
+  height: 100%;
+}
+.logo img {
+  width: 200px;
+}
+.heading__text strong {
+  color: #d4b761;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.ultimateWealth__left h3 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+/* ============== */
+/* section one */
+/* ============== */
+
+.ultimateWealth__left p,
+.ultimateWealth__middle p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.ultimateWealth__middle ul li {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.ultimateWealth .author {
+  font-size: 12px;
+  color: #555;
+}
+
+.form {
+  background-color: #3a2460;
+  color: #fff;
+  padding: 20px;
+}
+
+.ultimateWealth__right h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form__data label {
+  font-size: 14px !important;
+}
+
+/* ============== */
+/* blog section */
+/* ============== */
+
+/* .blog__card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+} */
+.blog__card img {
+  border-radius: 5px;
+}
+
+.blog__card span {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 15px;
+  display: block;
+}
+.blog__card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.blog__card p {
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+section.testimonials {
+  background-color: #3a2460;
+  color: #fff;
+}
+
+/* footer */
+
+footer {
+  background-color: #3a2460;
+  color: #fff;
+}
+.footer__form h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer__content h3 {
+  font-size: 27px;
+  font-weight: 500;
+}
+.footer__content p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.footer__logo img {
+  width: 300px;
+}

@@ -1,0 +1,99 @@
+@media (max-width: 991px) {
+  .heading__text strong {
+    font-size: 30px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .footer__logo img {
+    width: 200px;
+  }
+  .footer__signature img {
+    width: 200px;
+  }
+  .testimonials iframe {
+    height: 200px !important;
+  }
+}
+@media (max-width: 768px) {
+  .heading__text strong {
+    font-size: 30px;
+  }
+  .title h3 {
+    font-size: 22px;
+  }
+  .footer__content h3 {
+    font-size: 23px;
+  }
+  .testimonials iframe {
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading__text strong {
+    font-size: 20px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .title h3 {
+    font-size: 18px;
+  }
+  .footer__logo img {
+    width: 150px;
+  }
+  .footer__signature img {
+    width: 150px;
+  }
+  .footer__content h3 {
+    font-size: 20px;
+  }
+  .footer__content p {
+    font-size: 15px;
+  }
+  .footer__form h3 {
+    font-size: 17px;
+  }
+  .ultimateWealth__right h3 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 350px) {
+  .menu {
+    flex-direction: column;
+  }
+  .logo {
+    margin-bottom: 5px;
+  }
+  .ultimateWealth__left h3 {
+    font-size: 18px;
+  }
+  .ultimateWealth__left p,
+  .ultimateWealth__middle p {
+    font-size: 12px;
+  }
+  .button {
+    font-size: 13px !important;
+  }
+  .button__submit {
+    font-size: 14px !important;
+  }
+  .ultimateWealth__right h3 {
+    font-size: 15px;
+  }
+  .footer__logo img {
+    width: 100px;
+  }
+  .footer__signature img {
+    width: 100px;
+  }
+  .testimonials iframe {
+    height: 280px !important;
+  }
+}
+@media (max-width: 220px) {
+  .footer__bottom {
+    flex-direction: column;
+  }
+}
